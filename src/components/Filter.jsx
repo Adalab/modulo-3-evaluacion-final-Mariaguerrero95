@@ -14,10 +14,7 @@ function Filter({onChangeFilter}) {
             <label htmlFor="filter"></label>
             <input className="input1" type="text" id="filter" onChange={handleChangeInputSearch}></input>
             <ResetButton onReset={handleReset} />
-
-        </form>
-        
-        
+        </form>  
     )
 }
 

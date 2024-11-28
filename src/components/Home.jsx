@@ -11,8 +11,6 @@ function Home({ characters }) {
         SetFilterInput(value);
     };
 
-    
-
   const filterByName = characters
       .filter((character) => {
           return character.name.toLowerCase().includes(filterInput.toLowerCase());
