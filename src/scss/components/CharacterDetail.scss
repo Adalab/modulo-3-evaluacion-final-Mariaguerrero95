@@ -10,14 +10,14 @@
         background-color: #a9e3ef;
         border: 1px solid #0c8193;
         text-decoration: none;
-        font-size: 16px;
         display: flex;
         justify-content: center;
         color: white;
+        font-size: 16px;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        width: 150px;
         border-radius: 5px;
         padding: 5px 10px;
+        width: 150px;
 
             &:hover {
                 border: 2px solid #1db9d1;
@@ -34,14 +34,21 @@
         line-height: 28px;
         width: 100%;
         justify-content: center;
+        
     }
     h1 {
-        margin-bottom: 15px;
-        background-color: #a9e3ef;
+        background-color: #a9e3ef;    
+        padding-bottom: 50px;
+        
     }
     p {
         background-color: #a9e3ef; 
-        padding: 5px;
+        b {
+            background-color: #a9e3ef; /* Fondo para las palabras en <b> */
+            color: inherit; /* Asegura que el color del texto coincida */
+            display: inline-block; /* Opcional, si quieres que respete el fondo */
+            
+        }
     }
 
     img {
