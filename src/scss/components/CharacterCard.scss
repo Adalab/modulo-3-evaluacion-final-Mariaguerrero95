@@ -4,29 +4,26 @@
     text-align: center;
     border-radius: 20px;
     padding: 20px;
-    background-color: #3cf3ed;
+    background-color: #a9e3ef;
     
         &__image{
-            background-color: #3cf3ed;
             height: 125px;
             width: 125px;
+            
         }
         &__link {
-            background-color: #3cf3ed;
+            background-color: #a9e3ef;
             text-decoration: none;
             color: rgb(255, 255, 255);
             width: 100%;
         }
         &__species {
-            background-color: #3cf3ed;
+            background-color: #a9e3ef;
             font-size: 15px;
             color:white;
         }
         &__name {
-            background-color: #3cf3ed;
-        }
-        &__info {
-            background-color: #3cf3ed;
+            background-color: #a9e3ef;
         }
     }
 

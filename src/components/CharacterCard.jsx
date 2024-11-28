@@ -8,7 +8,7 @@ function CharacterCard({ character }) {
       <Link className="cardDetail__link" to={`/detail/${character.id}`}> 
         <img className="cardDetail__image" src={character.image} alt={character.name} />
         <div className="cardDetailinfo">
-          <p className="cardDetail_name">{character.name}</p>
+          <p className="cardDetail__name">{character.name}</p>
           <p className="cardDetail__species">{character.species}</p>
         </div>
         </Link>

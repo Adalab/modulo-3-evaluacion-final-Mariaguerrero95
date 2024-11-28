@@ -1,0 +1,55 @@
+.chaDetail {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;  
+    
+    &__link {
+        background-color: #a9e3ef;
+        border: 1px solid #0c8193;
+        text-decoration: none;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 150px;
+        border-radius: 5px;
+        padding: 5px 10px;
+
+            &:hover {
+                border: 2px solid #1db9d1;
+        }
+    }
+        &__card {
+        background-color: #a9e3ef;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+        color: white;
+        font-size: 16px;
+        line-height: 28px;
+        width: 100%;
+        justify-content: center;
+    }
+    h1 {
+        margin-bottom: 15px;
+        background-color: #a9e3ef;
+    }
+    p {
+        background-color: #a9e3ef; 
+        padding: 5px;
+    }
+
+    img {
+        border: 2px solid #0c8193;
+        height: 188px;
+        margin-right: 45px;
+        width: 188px;
+        margin-left: 10px;
+    }
+    
+}
