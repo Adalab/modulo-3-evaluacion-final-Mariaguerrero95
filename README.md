@@ -1,8 +1,33 @@
-# React + Vite
+# Evaluación final React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenid@!
 
-Currently, two official plugins are available:
+En esta página web podrás buscar tus personajes favoritos de la serie Rick and Morty, así como consultar el nombre de cada uno con su especie y número de episodios. Es mi trabajo final en la tercera evaluación del Máster Front-end Developer por lo que combino React+Vite, js, HTML y SASS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# ¿Dónde puedo encontrar la página web?
+
+Arriba a la derecha debajo de donde pone About tienes en enlace, si pinchas te redirigirá a la página web.
+
+# Instalación y configuración
+
+1. Clonar el repositorio
+
+```
+git clone https: …
+```
+
+2. Instalar las dependencias
+
+```
+npm install
+```
+
+3. Correr el proyecto
+
+```
+npm run dev
+```
+
+## Créditos
+
+Este proyecto ha sido posible gracias a Adalab y la alumna María Guerrero, quien ha ejecutado la actividad.
