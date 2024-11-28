@@ -4,14 +4,19 @@ import { useState } from "react";
 import PropTypes from "prop-types";
 
 function Home({ characters }) {
+
     const [filterInput, SetFilterInput] = useState ("");
-    
+
     const handleFilter = (value) => {
         SetFilterInput(value);
     };
-    const filterByName = characters.filter((character)=> {
-        return character.name.toLowerCase().includes(filterInput.toLowerCase());
-    })
+
+    
+
+  const filterByName = characters
+      .filter((character) => {
+          return character.name.toLowerCase().includes(filterInput.toLowerCase());
+      })
     .sort((a, b) => {
             if (a.name > b.name) {return 1;
             }

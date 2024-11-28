@@ -1,9 +1,9 @@
 .image{
-    width: 300px;
-    margin: 10px auto;
+    width: 400px;
+    margin: auto;
     display: block;
 
         @media(min-width: 768px){
-            width: 400px;
+            width: 650px;
         }
 }

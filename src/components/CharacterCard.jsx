@@ -2,6 +2,7 @@ import "../scss/components/CharacterCard.scss";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
+
 function CharacterCard({ character }) {
   return (
     <div className="cardDetail">

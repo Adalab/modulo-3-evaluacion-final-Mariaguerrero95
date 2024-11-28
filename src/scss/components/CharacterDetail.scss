@@ -14,16 +14,15 @@
         justify-content: center;
         color: white;
         font-size: 16px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         border-radius: 5px;
         padding: 5px 10px;
         width: 150px;
-
             &:hover {
                 border: 2px solid #1db9d1;
         }
     }
         &__card {
+            font-family: 'Open Sans', sans-serif;
         background-color: #a9e3ef;
         margin-bottom: 40px;
         display: flex;
@@ -39,6 +38,7 @@
     h1 {
         background-color: #a9e3ef;    
         padding-bottom: 50px;
+        font-size: 25px;
         
     }
     p {

@@ -5,6 +5,8 @@ import CharacterDetail from "./CharacterDetail";
 import { useState, useEffect } from "react";
 import { Route, Routes, useLocation, matchPath } from "react-router-dom";
 
+
+
 const App = () => {
 const [characters, setCharacters] = useState([]);
 useEffect(() => {
