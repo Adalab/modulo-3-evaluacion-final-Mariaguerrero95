@@ -5,7 +5,10 @@
     background-color: #a9e3ef;
     width: 300px;
     padding: 20px;
-    
+    @media(min-width: 768px){
+        width: 370px;
+        height: 320px;
+    }
 
     
         &__image{
